@@ -1,0 +1,5 @@
+name: OJC Technologie
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap
