@@ -1,0 +1,12 @@
+<div class="masthead clearfix">
+  <div class="inner">
+    <h3 class="masthead-brand">OJC Technologies</h3>
+    <nav>
+      <ul class="nav masthead-nav">
+        {% for item in site.data.nav %}
+        <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{item.url}}">{{item.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</div>
