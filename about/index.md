@@ -20,7 +20,7 @@ OJC Technologies continues to grow in this area and has since been able to suppl
 {% for member in site.data.team %}
 
   <div class="col-lg-6">
-    <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+    <img class="img-circle" src="https://unsplash.it/140?random" alt="Generic placeholder image" width="140" height="140">
     <h2>{{ member.name }}</h2>
     <small>{{member.position}}</small>
     <p>{{ member.bio }}</p>
