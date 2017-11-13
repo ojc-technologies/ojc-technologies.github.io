@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First foray into Jekyll
+author: Oliver
 date: 2017-03-07
 ---
 
