@@ -1,7 +1,8 @@
 name: OJC Technologies
 markdown: kramdown
 
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-sitemap
 
 defaults:
