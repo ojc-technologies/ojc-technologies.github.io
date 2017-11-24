@@ -1,0 +1,16 @@
+<section class="features">
+  <div class="wrapper">
+  {% for feature in site.data.features %}
+    <div class="feature">
+      <div class="ficon">
+        <img src="img/icon1.png" alt="">
+      </div>
+      <div class="details_exp">
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.detail }}</p>
+        <a href="#">more details<span>→</span></a>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section><!--  End Features  -->
