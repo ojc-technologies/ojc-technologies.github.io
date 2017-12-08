@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Crafty | {{page.title}}</title>
+	<title>OJC Technologies | {{page.title}}</title>
 	<meta charset="utf-8">
 	<meta name="author" content="pixelhint.com">
 	<meta name="description" content="Crafty is a stunning HTML5/CSS3 multi-purpose template, well-coded, commented code and easy to customize"/>
@@ -10,15 +10,18 @@
 	<link rel="stylesheet" type="text/css" href="{{ base }}/assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="{{ base }}/assets/css/main_responsive.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="{{ base }}/assets/js/jquery.js"></script>
-    <script type="text/javascript" src="{{ base }}/assets/js/carouFredSel.js"></script>
-    <script type="text/javascript" src="{{ base }}/assets/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pygments-css@1.0.0/autumn.css"
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+  <script type="text/javascript" src="{{ base }}/assets/js/main.js"></script>
 </head>
 <body>
 
 	{% include nav.html %}
 
+	<div id="content" class="wrapper">
 	{{ content }}
+	</div>
 
 	{% include footer.html %}
 

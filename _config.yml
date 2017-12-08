@@ -1,5 +1,7 @@
 name: OJC Technologies
 markdown: kramdown
+highlighter: rouge
+timezone: Europe/London
 
 plugins:
   - jekyll-feed
@@ -8,6 +10,13 @@ plugins:
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
     values:
-      layout: crafty
+      layout: "crafty"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:categories/:year/:month/:day/:title/

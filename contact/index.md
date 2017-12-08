@@ -1,5 +1,4 @@
 ---
-layout: pure-simple
 title: Contact
 banner: Want to get in touch?
 ---

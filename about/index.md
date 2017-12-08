@@ -3,7 +3,7 @@ title: Meet the team
 banner: OJC Technologies. Bringing your system to life.
 ---
 
-<h2 style="text-align: center;">Meet the team</h2>
+# Meet the team
 
 OJC Technologies was founded in June 2011 by Oliver Clarke after working at a large multinational systems integrator. Oliver formed OJC Technologies in order to provide its customers with a flexible capability to support the growing demand for software development services.
 

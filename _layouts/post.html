@@ -1,8 +1,19 @@
 ---
+layout: crafty
 title: Blog post
 ---
 <h1>{{ page.title }}</h1>
+<small>{{ page.author }}</small>
 <p class="meta">{{ page.date | date_to_string }}</p>
+
+{% if page.tags != null %}
+<div id="tags" class="tags wrapper">
+<b>Tags: </b>
+{% for tag in page.tags %}
+  <a href="{{ "tag_" | append: tag | append: ".html" }}">{{page.tagName}}{{tag}}</a>
+{% endfor %}
+</div>
+{% endif %}
 
 <div class="post">
   {{ content }}
