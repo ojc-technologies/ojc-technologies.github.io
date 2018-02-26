@@ -4,11 +4,9 @@ title: First foray into Jekyll
 author: Oliver
 date: 2017-03-07
 category: development
-image: https://unsplash.com/photos/1_CMoFsPfso/download
+image: /assets/img/jekyll-post.jpg
 tags: development markdown
 ---
-
-![blog-head](https://unsplash.com/photos/1_CMoFsPfso/download)
 
 We've just relanched our website, taking advantage of [Jekyll](http://jekyllrb.com/) as a replacement for traditional content management systems such as Wordpress. Jekyll is a Ruby framework that lets you write templates for pages and build websites using static Markdown files for your content.
 

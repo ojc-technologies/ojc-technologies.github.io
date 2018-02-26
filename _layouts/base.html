@@ -4,10 +4,11 @@
     {% include head.html %}
   </head>
   <body>
-    {% include nav.html %}
-    {{ content }}
-    {% include footer.html %}
-
+    <div data-sticky-container>
+      {% include nav.html %}
+      {{ content }}
+      {% include footer.html %}
+    </div>
   <!-- Compressed JavaScript -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/what-input/5.0.5/what-input.js"></script>

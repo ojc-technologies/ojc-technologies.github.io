@@ -2,7 +2,7 @@
 $hero-height: 60vh;
 
 .hero-section {
-  background: url('https://static.pexels.com/photos/248064/pexels-photo-248064.jpeg') no-repeat;
+  background: no-repeat;
   background-size: cover;
   height: $hero-height;
   text-align: center;
@@ -19,7 +19,7 @@ $hero-height: 60vh;
 
     h1 {
       font-size: 2rem;
-      color: $white;
+      color: $primary-color;
     }
 
     @media screen and (min-width: 40em) {
