@@ -1,17 +1,6 @@
-<div class="title-bar">
-  <div class="title-bar-left">
-    <button class="menu-icon" type="button"></button>
-    <span class="title-bar-title">Foundation</span>
-  </div>
-  <div class="title-bar-right">
-    <button class="menu-icon" type="button"></button>
-  </div>
-</div>
-
 <div class="top-bar">
   <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Site Title</li>
+    <ul class="menu-hover-lines menu" data-dropdown-menu>
       {% for item in site.data.nav %}
       <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{item.url}}">{{item.title}}</a></li>
       {% endfor %}

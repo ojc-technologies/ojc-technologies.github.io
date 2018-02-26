@@ -9,20 +9,36 @@ OJC Technologies was founded in June 2011 by Oliver Clarke after working at a la
 
 OJC Technologies continues to grow in this area and has since been able to supplement our capabilities with comprehensive systems engineering in order to support our customers and continue to provide high quality software and systems services.
 
-<div>
-  {% for person in site.data.team %}
-  <div>
-    <div>
-      <img style="display:block;margin:0 auto;" src="https://unsplash.it/140?random" alt="Generic placeholder image" width="140" height="140">
-      <h3 class="content-subhead">
-          {{ person.name }}
-      </h3>
-      <small>{{person.position}}</small>
-      <p>
-          {{ person.bio }}
-      </p>
-      <p><a href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a></p>
+<div class="grid-x grid-margin-x">
+{% for person in site.data.team %}
+  <!-- User card example #1 -->
+  <div class="cell large-auto card-user-container">
+
+    <!--card's image-->
+    <div class="card-user-avatar">
+      <img src="https://unsplash.it/140?random" alt="" class="user-image">
+    </div>
+
+    <div class="card-user-social">
+      <ul class="menu">
+        <li class="fa fa-twitter"></li>
+        <li class="fa fa-linkedin"></li>
+        <li class="fa fa-github"></li>
+      </ul>
+    </div>
+
+    <div class="card-user-bio">
+      <h4>{{ person.name }}</h4>
+      <p>{{ person.bio }}</p>
+      <span class="location-text">{{person.position}}</span>
+    </div>
+
+
+
+    <!--card's follow button-->
+    <div class="card-user-button">
+      <a href="#" class="hollow button">FOLLOW</a>
     </div>
   </div>
-  {% endfor %}
+{% endfor %}
 </div>

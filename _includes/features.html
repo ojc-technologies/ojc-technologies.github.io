@@ -1,15 +1,11 @@
 <section class="features">
-  <div class="wrapper">
+  <div class="site-features grid-x grid-margin-x">
   {% for feature in site.data.features %}
-    <div class="feature">
-      <div class="ficon">
-        <img src="img/icon1.png" alt="">
-      </div>
-      <div class="details_exp">
-        <h3>{{ feature.title }}</h3>
-        <p>{{ feature.detail }}</p>
-        <a href="#">more details<span>→</span></a>
-      </div>
+    <div class="cell small-12 large-4">
+      <i class="fa fa-check-square-o" aria-hidden="true"></i>
+      <h4>{{ feature.title }}</h4>
+      <p>{{ feature.detail }}</p>
+      <a href="#">more details<span>→</span></a>
     </div>
   {% endfor %}
   </div>
