@@ -1,17 +1,11 @@
-<section class="testimonials wrapper">
-
-  <span class="sep_line sep_top">
-  </span>
-
+<section class="testimonials">
   <h2>Testimonials</h2>
-  <div class="testi_slider" id="tslider">
-    {% for testimonial in site.data.testimonials %}
-    <div class="t">
-      <p>{{ testimonial.content }}</p>
-      <p class="author">{{ testimonial.author }}</p>
-    </div>
-    {% endfor %}
+  {% for testimonial in site.data.testimonials %}
+  <div class="testimonial small-12 medium-6 large-6">
+    <p>{{ testimonial.content }}</p>
+    <p class="author">{{ testimonial.author }}</p>
   </div>
+  {% endfor %}
   <div id="t_navigation"></div>
   <span class="sep_line sep_bottom"></span>
 

@@ -1,0 +1,25 @@
+
+.post {
+  @include xy-grid-container;
+  @include xy-grid;
+
+  margin-top: 1.5rem;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .post-header {
+    text-align: center;
+
+    .tags {
+
+    }
+
+  }
+
+  .post-content {
+    color: $black;
+  }
+
+}

@@ -1,0 +1,45 @@
+---
+layout: base
+---
+
+<div class="post">
+  <div class="post-header">
+    <div class="post-image">
+    </div>
+    <h1>{{page.title}}</h1>
+    <p class="meta">Published on {{page.date | date_to_string}}</p>
+    <p class="author">posted by {{page.author}}</p>
+    <ul class="breadcrumbs">
+      <li><i class="fa fa-tags" aria-hidden="true"></i></li>
+      {% for tag in page.tags %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="post-content">
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis augue lorem, aliquam et fringilla vitae, varius et mauris. Phasellus ut leo pharetra, commodo felis eget, ornare tellus. Ut elit turpis, pellentesque id sodales eu, venenatis a ipsum. Donec nulla magna, dictum vel turpis nec, consectetur blandit augue. Nullam est nisl, fermentum non metus id, placerat rutrum nibh. Sed ultricies tincidunt quam eu rutrum. Nullam mi eros, porttitor posuere euismod sed, sollicitudin et sem. Aenean pellentesque eros ac neque facilisis suscipit.
+    </p>
+    <p>
+    Etiam finibus, sapien non varius ultricies, sapien nunc vehicula velit, in laoreet nisi nulla non elit. Integer eget tortor consectetur, vestibulum ipsum ut, varius quam. Morbi laoreet lobortis lacus nec porttitor. Praesent hendrerit diam magna, vel malesuada eros pulvinar vitae. Donec id feugiat enim. Suspendisse vel hendrerit odio. Nam a posuere magna. Fusce quis consequat arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+    </p>
+    <p>
+    Vivamus tellus ex, accumsan id blandit ut, tempus eu urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis tempus euismod dolor, sed porta sapien aliquet eu. Curabitur nec ligula ex. Sed eu libero ornare, interdum enim eu, auctor orci. Integer maximus rhoncus blandit. Quisque iaculis egestas nunc at placerat. Proin vestibulum purus ut ex ornare condimentum non imperdiet tortor. Cras facilisis elit at nibh suscipit, eu sodales lectus tristique. Etiam non malesuada enim. Proin eleifend justo quis leo euismod maximus. Nulla nec scelerisque ligula. Ut augue est, fringilla sit amet metus quis, tincidunt bibendum urna. Quisque eleifend hendrerit nisi, a finibus augue sagittis sit amet.
+    </p>
+    <p>
+    Suspendisse interdum vel lacus vitae egestas. Quisque semper varius volutpat. Sed vitae venenatis massa. Sed non nisl aliquam, finibus arcu id, porta magna. Praesent varius rutrum lorem quis accumsan. Maecenas lobortis nunc neque, ut pretium ipsum aliquet a. Proin quis urna justo. Vivamus venenatis erat at nibh luctus condimentum. Etiam tincidunt sodales mi, non ultrices dolor luctus vitae. Nulla facilisi. Aliquam sollicitudin consequat fermentum. Donec nec leo commodo, consectetur turpis eget, lobortis metus. Curabitur at consectetur mauris.
+    </p>
+    <p>
+    Nam nec metus ac ante commodo pharetra. Sed non arcu vel neque vehicula rutrum id eget nunc. Aliquam erat volutpat. Morbi consectetur leo dui, nec mattis arcu ultricies aliquam. Mauris congue sapien eget tortor euismod convallis. Maecenas mi tortor, faucibus id scelerisque ac, luctus ac quam. Curabitur venenatis, erat nec commodo euismod, nibh arcu euismod mauris, ut tincidunt tortor ex ac nunc. Nunc id lorem et libero cursus efficitur id non neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    </p>
+  </div>
+  <div class="media-object">
+  <div class="media-object-section">
+    <img src= "https://placeimg.com/200/200/people">
+  </div>
+  <div class="media-object-section">
+    <h4>Dreams feel real while we're in them.</h4>
+    <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+  </div>
+</div>
+</div>

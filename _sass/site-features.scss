@@ -1,7 +1,23 @@
+.features {
+  @include xy-grid-container;
+}
+
 .site-features {
 
-  margin-top: 2rem;
+
+  @include xy-grid;
+  @include xy-gutters($negative: true);
   text-align: center;
+  max-width: $global-width;
+
+  .feature {
+    @include xy-cell(4);
+    margin-top: 1rem;
+
+    @include breakpoint(small only) {
+      @include xy-cell(12);
+    }
+  }
 
   .fa {
     font-size: 3rem;

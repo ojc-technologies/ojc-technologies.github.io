@@ -4,7 +4,7 @@
 // Our variables
 
 // imports
-@import "settings/settings";
+@import 'settings';
 @import 'foundation';
 
 // custom components
@@ -13,5 +13,7 @@
 @import 'menu-hover';
 @import 'user-card';
 @import 'site-features';
+@import 'testimonials';
+@import 'post';
 
 // Our content here

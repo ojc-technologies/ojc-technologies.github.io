@@ -16,7 +16,7 @@ OJC Technologies continues to grow in this area and has since been able to suppl
 
     <!--card's image-->
     <div class="card-user-avatar">
-      <img src="https://unsplash.it/140?random" alt="" class="user-image">
+      <img src="{{person.picture}}" alt="" class="user-image">
     </div>
 
     <div class="card-user-social">
