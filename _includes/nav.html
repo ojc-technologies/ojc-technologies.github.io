@@ -1,6 +1,6 @@
-<div class="top-bar sticky" data-sticky data-margin-top="0">
+<div class="top-bar">
   <div class="top-bar-left">
-    <ul class="menu-hover-lines menu align-right" data-dropdown-menu>
+    <ul class="menu-hover-lines menu float-right" data-dropdown-menu>
       {% for item in site.data.nav %}
       <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{item.url}}">{{item.title}}</a></li>
       {% endfor %}

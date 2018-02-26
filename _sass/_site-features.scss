@@ -1,21 +1,22 @@
+$feature-spacing: 3rem;
+
+
 .features {
   @include xy-grid-container;
 }
 
 .site-features {
-
-
   @include xy-grid;
   @include xy-gutters($negative: true);
   text-align: center;
   max-width: $global-width;
 
   .feature {
-    @include xy-cell(4);
-    margin-top: 1rem;
+    @include xy-cell(12);
+    margin: $feature-spacing;
 
-    @include breakpoint(small only) {
-      @include xy-cell(12);
+    @include breakpoint(large) {
+      @include xy-cell(4);
     }
   }
 

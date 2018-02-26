@@ -1,5 +1,6 @@
 ---
 title: What we do
+layout: page
 ---
 
 # Software and systems consultancy
@@ -26,8 +27,6 @@ Our technical architects and systems engineers have experience working across ma
 ## Then we'll help you build it
 
 We’ve built solutions for some of the most visionary and mission critical organisations out there.
-
-
 
 You can rest assured that we’ll get to the bottom of your requirements. And then define a solution that delivers.
 

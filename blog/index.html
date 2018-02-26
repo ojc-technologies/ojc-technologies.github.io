@@ -1,10 +1,11 @@
 ---
 title: OJC Technologies Blog
 banner: OJC Technologies Blog
+layout: base
 ---
 	{% include hero.html image="https://unsplash.com/photos/EPppwcVTZEo/download" %}
 
-	<div class="grid-container">
+	<div class="grid-container posts">
 		{% for post in site.posts %}
 		<div class="card news-card">
 		  <div class="card-divider card-image" style="background-image: url('{{ post.image }}')"> </div>

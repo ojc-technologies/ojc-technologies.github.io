@@ -1,29 +1,8 @@
 $news-card-label-background: $primary-color;
 $news-card-label-background-hover: scale-color($news-card-label-background, $lightness: -15%);
 
-.news-card-tag {
-  margin-bottom: 0.5rem;
-
-  .label {
-    border-radius: 0.125rem;
-    background-color: $news-card-label-background;
-    color: $white;
-
-    a {
-      background-color: inherit;
-      color: inherit;
-    }
-
-    &:hover,
-    &:focus {
-      background-color: $news-card-label-background-hover;
-
-      a {
-        background-color: inherit;
-        color: inherit;
-      }
-    }
-  }
+.posts {
+  margin-top: $site-element-spacing;
 }
 
 .news-card {

@@ -70,3 +70,11 @@ $large-article-header-height: rem-calc(500);
     }
   }
 }
+
+.article-content {
+  margin-top: $site-element-spacing;
+
+  :first-child{
+    
+  }
+}
