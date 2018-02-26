@@ -5,10 +5,9 @@ banner: OJC Technologies Blog
 	{% include hero.html image="https://unsplash.com/photos/EPppwcVTZEo/download" %}
 
 	<div class="grid-container">
-
 		{% for post in site.posts %}
 		<div class="card news-card">
-		  <div class="card-divider" style="height: 240px; background-image: url('{{ post.image }}')"> </div>
+		  <div class="card-divider card-image" style="background-image: url('{{ post.image }}')"> </div>
 		  <div class="card-section">
 		    <div class="news-card-date"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date_to_string }}</div>
 		    <article class="news-card-article">

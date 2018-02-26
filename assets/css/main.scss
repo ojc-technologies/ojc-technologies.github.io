@@ -13,17 +13,12 @@
 @import 'menu-hover';
 @import 'user-card';
 @import 'site-features';
-@import 'testimonials';
 @import 'post';
 @import 'news-card';
 
 // Our content here
 
-
-
-.blog-image {
-  max-height: rem-calc(248);
-  background-size: cover;
-  display: block;
-  position: relative;
+.page-divider {
+  margin: 1rem;
+  border-bottom:1px solid $secondary-color;
 }

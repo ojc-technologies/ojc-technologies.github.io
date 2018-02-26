@@ -4,7 +4,7 @@ title: What we do
 
 # Software and systems consultancy
 
-Stolen from Accenture - reword.
+This needs reword.
 As technology rapidly evolves, it’s more important than ever to have an innovation advisor on your side. Whether it’s time to create a new vision or put one into place, we can help you uncover the best tech to solve your toughest business problems–no matter the industry.
 
 

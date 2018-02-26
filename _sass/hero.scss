@@ -8,7 +8,7 @@ $hero-height: 60vh;
   text-align: center;
   display: flex;
   align-items: center;
-
+  background-position: center center;
 
   @media screen and (min-width: 40em) {
     background-position: center center;
@@ -16,6 +16,7 @@ $hero-height: 60vh;
 
   .hero-content {
     max-width: $global-width;
+    margin-bottom: 2rem;
 
     h1 {
       font-size: 2rem;

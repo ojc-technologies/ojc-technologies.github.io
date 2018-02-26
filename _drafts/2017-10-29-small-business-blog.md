@@ -2,6 +2,7 @@
 layout: post
 title: Blog post ideas
 author: Oliver
+image: /assets/img/idea.jpg
 date: 2017-10-29
 ---
 
