@@ -1,19 +1,26 @@
-<header>
-  <div class="wrapper">
-    <img src="{{ base }}/assets/img/logo-wht.png" style="height: 34px;" alt="Crafty" class="logo">
-    <a href="#" class="menu_icon" id="menu_icon"></a>
-    <nav id="nav_menu">
-      <ul>
-        {% for item in site.data.nav %}
-        <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{item.url}}">{{item.title}}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
+<div class="title-bar">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button"></button>
+    <span class="title-bar-title">Foundation</span>
+  </div>
+  <div class="title-bar-right">
+    <button class="menu-icon" type="button"></button>
+  </div>
+</div>
 
-    <ul class="social">
-      <li><a class="fb" href="#"></a></li>
-      <li><a class="twitter" href="#"></a></li>
-      <li><a class="gplus" href="#"></a></li>
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      {% for item in site.data.nav %}
+      <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{item.url}}">{{item.title}}</a></li>
+      {% endfor %}
     </ul>
   </div>
-</header><!--  End Header  -->
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Search"></li>
+      <li><button type="button" class="button">Search</button></li>
+    </ul>
+  </div>
+</div>
