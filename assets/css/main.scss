@@ -4,8 +4,6 @@
 // Our variables
 $site-element-spacing: 3rem;
 
-
-
 // imports
 @import 'settings';
 @import 'foundation';
@@ -13,11 +11,11 @@ $site-element-spacing: 3rem;
 // custom components
 @import 'footer';
 @import 'hero';
-@import 'menu-hover';
 @import 'user-card';
 @import 'site-features';
 @import 'post';
 @import 'news-card';
+@import 'nav';
 
 // Our content here
 

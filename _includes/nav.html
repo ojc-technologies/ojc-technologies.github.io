@@ -1,9 +1,16 @@
-<div class="top-bar">
-  <div class="top-bar-left">
-    <ul class="menu-hover-lines menu float-right" data-dropdown-menu>
-      {% for item in site.data.nav %}
-      <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{item.url}}">{{item.title}}</a></li>
-      {% endfor %}
-    </ul>
+<div data-sticky-container>
+  <div data-sticky data-options="marginTop:0">
+    <div class="top-bar top-bar-sticky-shrink">
+      <div class="top-bar-left logo cell small-4 large-offset-2">
+        <a href="/"><img src="/assets/img/ojc-logo.svg"></a>
+      </div>
+      <div class="top-bar-right cell small-8">
+        <ul class="menu-hover-lines menu" data-dropdown-menu>
+          {% for item in site.data.nav %}
+          <li{% if item.url == page.url %} class="active"{% endif %}><a href="{{item.url}}">{{item.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

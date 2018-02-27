@@ -1,0 +1,82 @@
+$top-bar-sticky-height-expanded: 8rem;
+$top-bar-sticky-shrink-height-stuck: 4rem;
+
+$menu-hover-lines-transition: all 0.35s ease;
+$menu-hover-lines-border-width: 3px;
+
+.top-bar-sticky-shrink {
+  height: $top-bar-sticky-height-expanded;
+  transition: all 0.25s ease;
+  background: transparent;
+
+  .logo img {
+    height: 70px;
+  }
+
+  .menu-hover-lines {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    max-width: 75rem;
+    background: transparent;
+
+    li a {
+      padding: 0.75rem 0;
+      color: rgba($body-font-color, 0.5);
+      position: relative;
+      margin-left: 1rem;
+    }
+
+    li:first-child a {
+      margin-left: 0;
+    }
+
+    li.active > a {
+      background-color: transparent;
+    }
+
+    a:before,
+    a::after {
+      height: $menu-hover-lines-border-width;
+      position: absolute;
+      content: '';
+      transition: $menu-hover-lines-transition;
+      background-color: $primary-color;
+      width: 0;
+    }
+
+    a::before {
+      top: 0;
+      left: 0;
+    }
+
+    a::after {
+      bottom: 0;
+      right: 0;
+    }
+
+    a:hover,
+    li.active > a {
+      color: $body-font-color;
+    }
+
+    a:hover::before,
+    .active a::before,
+    a:hover::after,
+    .active a::after {
+      width: 100%;
+    }
+  }
+}
+
+.is-stuck .top-bar-sticky-shrink {
+  height: $top-bar-sticky-shrink-height-stuck;
+  transition: all 0.25s ease;
+
+  background-color: rgba(255,255,255, 0.7);
+
+  .logo img {
+    height: 50px;
+  }
+}
