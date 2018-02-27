@@ -32,6 +32,6 @@ This gives us a really neat way to reuse the same [version controlled content](h
 ## Hosting on GitHub
 
 Whilst the plan was to take advantage of [GitHub Pages hosting](https://pages.github.io/). It looks as though it might be lacking a little bit due to an absence of full end-to-end HTTPS support for custom domains. The
-provided GitHub pages site [does support](https://github.com/blog/2186-https-for-github-pages/) `*.github.io` pages which is great because you get the benefits of HTTP/2 when using a github.io domain, but you either have to front with a CDN such as [CloudFare](https://www.cloudfare.com/) and accept that the TLS will be terminated at each hop (i.e. at CloudFare, then re-established to the github.io host) or concede that users have to add an exception to their browser which trusts `*.github.io` as a host for the custom domain - this is bad!
+provided GitHub pages site [does support](https://github.com/blog/2186-https-for-github-pages/) `*.github.io` pages which is great because you get the benefits of HTTP/2 when using a github.io domain, but you either have to front with a CDN such as [CloudFlare](https://www.cloudflare.com/) and accept that the TLS will be terminated at each hop (i.e. at CloudFlare, then re-established to the github.io host) or concede that users have to add an exception to their browser which trusts `*.github.io` as a host for the custom domain - this is bad!
 
 Not using Markdown yet? What are you waiting for [get started](http://commonmark.org/help/) with the [10 minute tutorial](http://commonmark.org/help/tutorial/)
