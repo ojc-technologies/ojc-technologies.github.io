@@ -9,7 +9,6 @@
     $secondary-color, $black
   );
 
-
   #engadget-footer-sitemap {
     @include grid-row();
     color:$light-gray;
@@ -17,8 +16,6 @@
     a {
      color:$light-gray !important;
     }
-
-
 
     .links {
       @include breakpoint(small) {
