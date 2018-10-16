@@ -4,22 +4,16 @@
 // Our variables
 $site-element-spacing: 3rem;
 
-// imports
-@import 'settings';
-@import 'foundation';
-
-// custom components
-@import 'footer';
-@import 'hero';
-@import 'user-card';
-@import 'site-features';
-@import 'post';
-@import 'news-card';
-@import 'nav';
-
 // Our content here
 
 .page-divider {
   margin: 1rem;
-  border-bottom:1px solid $secondary-color;
+  border-bottom:1px solid #ccc;
+}
+
+html { 
+  width:100%; 
+  height:100%; 
+  background:url(/assets/img/ojc-logo-main.svg) center center no-repeat;
+  background-color: #FFF;
 }
