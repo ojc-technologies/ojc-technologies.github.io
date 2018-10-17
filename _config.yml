@@ -4,7 +4,7 @@ highlighter: rouge
 timezone: Europe/London
 
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-sitemap
 
 defaults:
@@ -12,11 +12,4 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      permalink: /blog/:categories/:year/:month/:day/:title/
+      layout: "base"
